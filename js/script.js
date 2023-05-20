@@ -3,8 +3,6 @@ const headerEl = document.querySelector(".header");
 
 btnNavEl.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
-  console.log(btnNavEl);
-  console.log(headerEl);
 });
 
 const yearEl = document.querySelector(".year");
