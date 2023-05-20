@@ -7,6 +7,10 @@ btnNavEl.addEventListener("click", function () {
   console.log(headerEl);
 });
 
+const yearEl = document.querySelector(".year");
+const currentYear = new Date().getFullYear();
+yearEl.textContent = currentYear;
+
 ///////////////////////////////////////////////////////////
 // Smooth scrolling animation
 
